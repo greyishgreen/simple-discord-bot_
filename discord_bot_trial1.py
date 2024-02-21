@@ -84,8 +84,8 @@ def hava_durumu(şehir):
 from discord.ext import commands 
 import discord 
 
-BOT_TOKEN="MTIwODQ1NjQ3OTA2MTgzOTkyNA.GLcSMj.hObiHIjbiMneoDcOZys2ATnDwDRLc0v1ENmH7o"
-CHANNEL_ID=1208475219107250267
+BOT_TOKEN=""
+CHANNEL_ID=
 
 bot= commands.Bot(command_prefix="!", intents= discord.Intents.all())
 komut_listesi = ["selam", "komutlar", "mesajcoin", "mesajyoutube", "hava"]
